@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <link rel=stylesheet href=style.css>
+    <link rel="icon" href="ImagensMuseu/iconMuseu.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Curitiba em Exposição: Museu Paranaense</title>
+</head>
+
+
+<body class=BodyPg3>
+
+    <div class="menu3">
+        <nav>
+            <ul>
+                <li><a href='index.html'>Início</a></li>
+                <li><a href='PaginaOlho.html'>Museu Oscar Niemeyer</a></li>
+                <li><a href='PaginaParanaense.html'>Museu Paranaense</a></li>
+                <li><a href='PaginaEgito.html'>Museu Egípcio e Rosacruz</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <button class="ScrollTop" onclick="backTop();">
+		<img src="Imagens/ImgScrollTop.png">
+	</button>
+	<script>
+		window.addEventListener('scroll', function () {
+			let scroll = document.querySelector('.ScrollTop')
+			scroll.classList.toggle('active', window.scrollY > 250)
+		})
+
+		function backTop() {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			})
+		}
+	</script>
+    <hr>
+
+    <h1>Museu Paranaense: A História e Cultura do Paraná</h1>
+    <div class="contorno3">
+        <img src="Imagens/ImgMuseuParanaense.jpeg" alt="Imagem do Museu">
+    </div>
+
+    <hr>
+
+    <div class="Div1Pg3">
+        <div class="ColunasPg3">
+            <p class="Text1Pg3">
+                • O Museu Paranaense , localizado no centro histórico de Curitiba, é uma das mais antigas instituições
+                culturais do estado, dedicada à preservação da história e cultura do Paraná. Fundado em 1876, o museu
+                ocupa atualmente um elegante palácio de arquitetura neoclássica, que por si só já é um marco do
+                patrimônio local.
+
+                O acervo do museu reúne mais de 400 mil peças, abrangendo desde objetos destruídos e etnográficos até
+                documentos históricos, moedas e artefatos que retratam o desenvolvimento da sociedade paranaense.
+            </p>
+        </div>
+
+        <div class="ColunasPg3">
+            <p class="Text2Pg3">
+                • Suas exposições permanentes e temporárias exploraram temas como a história indígena, o ciclo do café,
+                a colonização europeia e a trajetória política e social do estado.
+
+                Além de preservar e exibir a memória paranaense, o museu promove eventos culturais, cursos e workshops,
+                integrando a comunidade e reforçando seu papel como um centro de referência histórica e educacional. Com
+                sua riqueza de conteúdo e arquitetura imponente, o Museu Paranaense é um ponto obrigatório para quem
+                deseja conhecer as raízes do Paraná.
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="Div2Pg3">
+        <div class="CardPg3"> <img src="Imagens/ImgParade.jpeg" alt="Itens em exposição"> </div>
+        <div class="CardPg3"> <img src="Imagens/ImgBarco.jpeg" alt="Barco em Exposição"> </div>
+        <div class="CardPg3"> <img src="Imagens/ImgQuadros.jpeg" alt="Quadros em exposição"> </div>
+        <div class="CardPg3"> <img src="Imagens/ImgPerpetua.jpeg" alt="Exposição Ephemera/Perpétua"> </div>
+        <div class="CardPg3"> <img src="Imagens/ImgSalaSino.jpg" alt="Exposição Sino"> </div>
+    </div>
+
+    <hr>
+
+    <div class="DivTexto-obras3">
+        <p class="TituloDoTexto-obras3">As Obras do Museu Paranaense: Um Retrato da História e Cultura do Paraná</p>
+        <p>
+            O Museu Paranaense abriga um vasto acervo que retrata a rica história e a diversidade cultural do Paraná.
+            Suas exposições apresentam desde objetos destruídos até registros da vida colonial e moderna, proporcionando
+            aos visitantes uma análise profunda nas origens e transformações do estado.
+        </p>
+        <p>
+            Entre as peças em destaque estão artistas indígenas, moedas históricas, esculturas e documentos que narram a
+            formação da sociedade paranaense. Cada objeto oferece um vislumbre único sobre momentos cruciais da
+            história, como o ciclo do café, a colonização europeia e a convivência entre diferentes etnias e culturas.
+            As obras não representam apenas o passado, mas criam uma ponte entre a tradição e o presente, convidando os
+            visitantes a refletirem sobre as heranças culturais do estado.
+        </p>
+        <p>
+            A disposição das obras e a arquitetura do museu se complementam, criando um ambiente de aprendizado e
+            contemplação. A riqueza de detalhes e a variedade do acervo fazem do Museu Paranaense um local vibrante,
+            onde cada visita revela novos aspectos da história do Paraná e de seu povo.
+        </p>
+    </div>
+
+    <div class="barraInferior3">
+        <p>Copyright © 2010-2024  Todos os direitos reservados.</p>
+    </div>
+
+</body>
+
+</html>
