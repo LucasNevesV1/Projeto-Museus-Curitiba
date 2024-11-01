@@ -36,7 +36,7 @@ Este é um projeto simples de um site em HTML e CSS que apresenta informações 
 
 - Na aplicação hospedada:
 
-1. Acesse o site.
+1. Acesse o site https://projeto-museus-curitiba.vercel.app/.
 2. Explore e aprenda mais sobre os museus em Curitiba.
 
 ## Autores
