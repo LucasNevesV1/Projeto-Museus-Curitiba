@@ -42,7 +42,7 @@ Este é um projeto simples de um site em HTML e CSS que apresenta informações 
 ## Autores
 
 - [Lucas das Neves](https://github.com/LucasNevesV1)
-- Guilherme Trombini
+- [Guilherme Trombini](https://github.com/GuiTrombini06)
 
 ---
 
