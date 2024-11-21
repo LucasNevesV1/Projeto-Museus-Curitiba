@@ -37,7 +37,7 @@ Este é um projeto simples de um site em HTML e CSS que apresenta informações 
 - Na aplicação hospedada:
 
 1. Acesse o site https://projeto-museus-curitiba.vercel.app/.
-2. Explore e aproveite o CinePrisma.
+2. Explore e aproveite os museus de Curitiba.
 
 ## Autores
 
